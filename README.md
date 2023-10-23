@@ -15,7 +15,7 @@ This Terraform script deploys the following components in Azure:
 
 Before you begin, ensure you have the following tools and accounts set up:
 
-- [Terraform](https://www.terraform.io/) (>=0.14)
+- [Terraform](https://www.terraform.io/) 
 - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 - [Azure subscription](https://azure.com/free)
 
