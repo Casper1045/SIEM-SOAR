@@ -11,6 +11,28 @@ This Terraform script deploys the following components in Azure:
 - Linux Virtual Machine: A Linux-based virtual machine with basic configurations.
 - Network Security Group (NSG): A basic NSG with some rules to control network traffic.
 
+## Prerequisites
+
+Before you begin, ensure you have the following tools and accounts set up:
+
+- [Terraform](https://www.terraform.io/) (>=0.14)
+- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+- [Azure subscription](https://azure.com/free)
+
+## Structure
+
+Structure of our repository, such as the organization of our Terraform code and other relevant files.
+
+project-root/
+  ├── main.tf
+  ├── variables.tf
+  ├── outputs.tf
+  ├── providers.tf
+  ├── ssh.tf
+  ├── terraform.tfstate
+  ├── terraform.tfstate.backup
+
+
 ## Diagram
 
 Here is an architectural diagram illustrating the deployed infrastructure:
