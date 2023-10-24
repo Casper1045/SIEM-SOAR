@@ -37,7 +37,8 @@ project-root/
 
 Here is an architectural diagram illustrating the deployed infrastructure:
 
-![image](https://github.com/Casper1045/SIEM-SOAR/assets/61239359/60a520de-abf7-4e86-be7b-82ade1bbdd8f)
+![image](https://github.com/Casper1045/SIEM-SOAR/assets/61239359/03c031f5-b913-47e6-ba53-025cb4ee8e7e)
+
 
 ## How to Deploy
 
