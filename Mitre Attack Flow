@@ -1,0 +1,40 @@
+###Pour décrire une attaque sur votre infrastructure vulnérable, voici un exemple d'attaque basée sur une menace courante : l'attaque par force brute sur un serveur SSH. Vous pouvez utiliser le générateur MITRE Attack Flow Builder pour détailler les étapes de cette attaque. Voici comment procéder :
+
+##**Attaque par Force Brute sur un Serveur SSH**
+
+1. **Reconnaissance** : L'attaquant identifie l'adresse IP publique de la machine virtuelle (VM) Azure cible.
+
+2. **Exploration des Vulnérabilités** : L'attaquant analyse la configuration SSH de la machine virtuelle et identifie qu'elle autorise les connexions SSH par mot de passe.
+
+3. **Accès Initial** : L'attaquant commence à exécuter une attaque de force brute contre le serveur SSH en essayant de deviner le mot de passe de l'utilisateur. Il utilise des outils automatisés pour tester une série de mots de passe couramment utilisés.
+
+4. **Persistance** : Si l'attaquant parvient à deviner le mot de passe, il obtient un accès SSH à la machine virtuelle. Il peut installer des backdoors ou d'autres méthodes pour assurer un accès continu à la VM.
+
+5. **Privilèges Élevés** : Une fois à l'intérieur, l'attaquant peut essayer d'augmenter ses privilèges en exploitant des vulnérabilités connues sur la VM ou en essayant d'obtenir des privilèges administratifs.
+
+6. **Mouvement Latéral** : L'attaquant peut tenter de se déplacer latéralement pour explorer d'autres parties du réseau Azure en utilisant l'accès obtenu.
+
+7. **Collecte d'Informations** : L'attaquant collecte des informations sur les ressources et les données sensibles sur la machine virtuelle et sur le réseau Azure.
+
+8. **Exfiltration de Données** : L'attaquant exfiltre des données sensibles de la VM vers un emplacement externe sous son contrôle.
+
+#Pour créer un fichier MITRE Attack Flow :
+
+1. Visitez le générateur MITRE Attack Flow Builder : https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/attack-flow/
+
+2. Utilisez l'interface pour créer les étapes de l'attaque en utilisant le modèle ci-dessus.
+
+3. Enregistrez le fichier .json résultant.
+
+4. Créez une image .afb à partir du fichier .json en utilisant l'outil de génération dans le générateur MITRE.
+
+5. Créez également une exportation .png de l'attaque.
+
+6. Créez un dossier dans votre référentiel GitHub pour stocker ces fichiers.
+
+7. Fournissez un lien vers ce dossier dans votre réponse à la question.
+
+N'oubliez pas que cette attaque est à des fins éducatives uniquement, et l'utilisation de telles méthodes sur des ressources Azure sans autorisation est illégale. Assurez-vous de suivre les règles et les réglementations de sécurité appropriées lors de la réalisation de ces exercices.
+
+
+
