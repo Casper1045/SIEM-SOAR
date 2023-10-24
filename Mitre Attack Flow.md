@@ -26,6 +26,22 @@ L'attaque par force brute est une menace courante où un attaquant tente de devi
 
 ![image](https://github.com/Casper1045/SIEM-SOAR/assets/61239359/86087b63-f549-4e67-a033-a76f4f720a0e)
 
+Création du script d'attaque :
+J'ai commencé par créer un script Python pour effectuer l'attaque par force brute. Le script utilise la bibliothèque Paramiko pour établir une connexion SSH avec la machine virtuelle Azure cible. Le script prend en charge la spécification de l'adresse IP de la cible, le nom d'utilisateur SSH à cibler et le fichier contenant les mots de passe à essayer.
+
+Insertion de l'adresse IP de la cible :
+Après avoir lancé le script, j'ai été invité à entrer l'adresse IP de la machine virtuelle Azure que je ciblais. J'ai fourni l'adresse IP, qui est la cible de mon attaque.
+
+Préparation du dictionnaire de mots de passe :
+Ensuite, j'ai été invité à entrer le nom du fichier contenant la liste des mots de passe que je voulais essayer. J'ai préparé ce fichier au préalable, en y insérant une liste de mots de passe possibles. Le script lit ce fichier pour obtenir la liste des mots de passe.
+
+Lancement de l'attaque :
+Après avoir spécifié l'adresse IP de la cible et le fichier de mots de passe, j'ai choisi l'option "Launch". Le script a ensuite commencé à exécuter une attaque de force brute en utilisant les combinaisons de noms d'utilisateur et de mots de passe.
+
+Le script crée plusieurs threads, un pour chaque mot de passe du dictionnaire, pour tenter de se connecter à la machine virtuelle en utilisant les combinaisons nom d'utilisateur/mot de passe. Si une combinaison fonctionne, le script affiche un message de succès avec les détails de la connexion.
+
+Exécution de l'attaque :
+Le script a effectué l'attaque en essayant de deviner le mot de passe de l'utilisateur SSH sur la machine virtuelle cible. Cela a été fait de manière automatisée, en testant une série de mots de passe couramment utilisés. Le script a affiché les résultats en temps réel, indiquant les tentatives réussies et infructueuses.
 
 ## Utilisation de Microsoft Azure Sentinel
 
