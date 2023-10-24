@@ -1,6 +1,6 @@
-###Pour décrire une attaque sur votre infrastructure vulnérable, voici un exemple d'attaque basée sur une menace courante : l'attaque par force brute sur un serveur SSH. Vous pouvez utiliser le générateur MITRE Attack Flow Builder pour détailler les étapes de cette attaque. Voici comment procéder :
+### Pour décrire une attaque sur votre infrastructure vulnérable, voici un exemple d'attaque basée sur une menace courante : l'attaque par force brute sur un serveur SSH. Vous pouvez utiliser le générateur MITRE Attack Flow Builder pour détailler les étapes de cette attaque. Voici comment procéder :
 
-##**Attaque par Force Brute sur un Serveur SSH**
+## **Attaque par Force Brute sur un Serveur SSH**
 
 1. **Reconnaissance** : L'attaquant identifie l'adresse IP publique de la machine virtuelle (VM) Azure cible.
 
@@ -18,7 +18,7 @@
 
 8. **Exfiltration de Données** : L'attaquant exfiltre des données sensibles de la VM vers un emplacement externe sous son contrôle.
 
-#Pour créer un fichier MITRE Attack Flow :
+# Pour créer un fichier MITRE Attack Flow :
 
 1. Visitez le générateur MITRE Attack Flow Builder : https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/attack-flow/
 
