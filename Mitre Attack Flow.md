@@ -24,16 +24,10 @@ L'attaque par force brute est une menace courante où un attaquant tente de devi
 
 ## Fichiers d'Attaque
 
-- [Fichier .json de l'Attaque](attaque.json)
-- [Image .afb de l'Attaque](attaque.afb)
-- [Image .png de l'Attaque](attaque.png)
+![image](https://github.com/Casper1045/SIEM-SOAR/assets/61239359/86087b63-f549-4e67-a033-a76f4f720a0e)
+
 
 ## Utilisation de Microsoft Azure Sentinel
 
 Nous utilisons Microsoft Azure Sentinel pour détecter et surveiller cette attaque. Les règles de détection ont été configurées pour identifier les activités anormales liées à l'attaque par force brute.
 
-## Avertissement
-
-Cette attaque est effectuée à des fins éducatives uniquement et avec une autorisation appropriée. L'utilisation de ces méthodes sur des ressources Azure sans autorisation est illégale. Suivez les règles et les réglementations de sécurité appropriées.
-
-Nous tenons à rappeler que la sécurité informatique doit être exercée de manière éthique et responsable.
